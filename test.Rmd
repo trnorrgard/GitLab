@@ -1,0 +1,13 @@
+---
+title: "git data"
+author: "Teagan Norrgard, trn8cwf"
+date: "9/8/2021"
+output: html_document
+---
+
+```{r}
+cereal<-read.csv("/Users/teagannorrgard/DS-3001-main/data/cereal.csv")
+
+test
+```
+
