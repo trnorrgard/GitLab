@@ -6,10 +6,18 @@ output: html_document
 ---
 
 ```{r}
+library(ggplot2)
+library(tidyverse)
+library(dplyr)
+```
+
+
+
+```{r}
 data("iris")
 ```
 ```{r}
 ggplot(iris, aes(x=Species, y=Sepal.Length))+
-  geom_boxplot(fill="skyblue")
+  geom_boxplot(fill="skyblue") + labs(x = "Species", y = "Sepal Length", title = "Length of Sepal of Irises")
 ```
 
